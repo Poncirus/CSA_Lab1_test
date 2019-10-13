@@ -1,16 +1,16 @@
-# 测试用例 1 
-#### 包含的指令
+# TESTCASE 0-1 
+#### Instruction
 - [x] ADDU
 - [ ] SUBU
 - [x] LW
 - [x] SW
 - [ ] BEQ
 
-#### 采分点
+#### Grading scheme
 - [ ] RAW hazards
 - [ ] BEQ
 
-#### 汇编指令
+#### Assembly
 ```
 LW    R1, R0, 0
 LW    R2, R0, 4
