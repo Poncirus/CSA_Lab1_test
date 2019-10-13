@@ -11,6 +11,7 @@
 - [ ] BEQ
 
 #### 汇编指令
+```
 LW    R1, R0, 0
 LW    R2, R0, 4
 ADDU  R0, R0, r0
@@ -20,3 +21,4 @@ ADDU  R0, R0, r0
 ADDU  R0, R0, r0
 SW    R3, R0, 8
 HALT
+```
