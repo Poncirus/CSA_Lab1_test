@@ -1,15 +1,4 @@
-# testcase
-
-Folder contains testcases for lab1
-Testcases are listed from easy to hard
-
-## Testing method
-
-Copy the imem.txt and dmem.txt of a testcase to the target directory and run the program. After the program is completed, compare the generated dmemresult.txt, RFresult.txt and stateresult.txt with the file with the same name under the test case.
-
-## Testcases Introduction
-
-### 1 
+# TESTCASE 1 
 #### Instruction
 - [x] ADDU
 - [ ] SUBU
@@ -21,3 +10,15 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 - [ ] RAW hazards
 - [ ] BEQ
 
+#### Assembly
+```
+LW    R1, R0, 0
+LW    R2, R0, 4
+ADDU  R0, R0, r0
+ADDU  R0, R0, r0
+ADDU  R3, R1, R2
+ADDU  R0, R0, r0
+ADDU  R0, R0, r0
+SW    R3, R0, 8
+HALT
+```
