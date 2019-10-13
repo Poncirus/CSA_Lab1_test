@@ -22,3 +22,14 @@
 - [ ] RAW hazards
 - [ ] BEQ
 
+### 2 
+#### 包含的指令
+- [ ] ADDU
+- [x] SUBU
+- [x] LW
+- [x] SW
+- [ ] BEQ
+
+#### 采分点
+- [ ] RAW hazards
+- [ ] BEQ

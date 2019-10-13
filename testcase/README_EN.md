@@ -22,3 +22,14 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 - [ ] RAW hazards
 - [ ] BEQ
 
+### 2 
+#### Instruction
+- [ ] ADDU
+- [x] SUBU
+- [x] LW
+- [x] SW
+- [ ] BEQ
+
+#### Grading scheme
+- [ ] RAW hazards
+- [ ] BEQ
