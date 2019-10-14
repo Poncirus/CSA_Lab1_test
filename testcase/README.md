@@ -10,26 +10,10 @@
 
 ## 测试用例简介
 
-### 0-1 
-#### 包含的指令
-- [x] ADDU
-- [ ] SUBU
-- [x] LW
-- [x] SW
-- [ ] BEQ
-
-#### 采分点
+### GROUP 0 采分点
 - [ ] RAW hazards
 - [ ] BEQ
 
-### 0-2 
-#### 包含的指令
-- [ ] ADDU
-- [x] SUBU
-- [x] LW
-- [x] SW
-- [ ] BEQ
-
-#### 采分点
-- [ ] RAW hazards
+### GROUP 1 采分点
+- [x] RAW hazards
 - [ ] BEQ

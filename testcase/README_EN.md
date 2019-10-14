@@ -10,26 +10,10 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 
 ## Testcases Introduction
 
-### 0-1 
-#### Instruction
-- [x] ADDU
-- [ ] SUBU
-- [x] LW
-- [x] SW
-- [ ] BEQ
-
-#### Grading scheme
+### GROUP 0 Grading scheme
 - [ ] RAW hazards
 - [ ] BEQ
 
-### 0-2 
-#### Instruction
-- [ ] ADDU
-- [x] SUBU
-- [x] LW
-- [x] SW
-- [ ] BEQ
-
-#### Grading scheme
-- [ ] RAW hazards
+### GROUP 1 Grading scheme
+- [x] RAW hazards
 - [ ] BEQ
