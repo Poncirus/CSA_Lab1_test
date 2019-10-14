@@ -1,6 +1,6 @@
 # 测试用例 1-3 (未验证)
 
-这个测试用例针对 MEM-EX Forwarding 设计
+这个测试用例针对 MEM-MEM Forwarding 设计
 
 #### 包含的指令
 - [ ] ADDU
