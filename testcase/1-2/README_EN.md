@@ -6,7 +6,7 @@ This testcase is designed for MEM-EX forwarding
 - [x] ADDU
 - [ ] SUBU
 - [x] LW
-- [x] SW
+- [ ] SW
 - [ ] BEQ
 
 #### Grading scheme

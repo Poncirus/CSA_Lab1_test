@@ -6,7 +6,7 @@
 - [x] ADDU
 - [ ] SUBU
 - [x] LW
-- [x] SW
+- [ ] SW
 - [ ] BEQ
 
 #### 采分点
