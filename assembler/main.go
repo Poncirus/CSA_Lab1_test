@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"./Assembler"
+	"./assembler"
 )
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 	Sw r3,r0,8
 	halt
 	`
-	code, err := Assembler.Assemble(ins)
+	code, err := assembler.Assemble(ins)
 	if err != 0 {
 		fmt.Println("Error line: ", err)
 	} else {
