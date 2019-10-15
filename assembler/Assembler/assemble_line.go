@@ -84,7 +84,7 @@ func AssembleLine(instrction string) *string {
 		} else {
 			return nil
 		}
-		if i, err := strconv.Atoi(paras[2]); err == nil {
+		if i, err := strconv.Atoi(strings.TrimSpace(paras[2])); err == nil {
 			c += iToA(i, 16)
 		} else {
 			return nil
