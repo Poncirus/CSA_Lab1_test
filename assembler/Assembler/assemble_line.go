@@ -125,23 +125,48 @@ func splitParameter(ins string) (paras []string, n int) {
 }
 
 /*
-iToa returns the string representation of i, the length of the string is len
+iToA returns the string representation of i, the length of the string is len
 */
 func iToA(i int, length int) string {
+	nega := i < 0
+	if nega {
+		i = -i - 1
+	}
+
 	s := strconv.FormatInt(int64(i), 2)
+
+	if nega {
+		var b strings.Builder
+		for _, v := range s {
+			if v == '1' {
+				b.WriteByte('0')
+			} else {
+				b.WriteByte('1')
+			}
+		}
+		s = b.String()
+	}
+
 	if len(s) > length {
 		return s[:length]
 	}
 
 	var b strings.Builder
 	for b.Len() < length-len(s) {
-		fmt.Fprintf(&b, "0")
+		if nega {
+			fmt.Fprintf(&b, "1")
+		} else {
+			fmt.Fprintf(&b, "0")
+		}
 	}
 	b.WriteString(s)
 
 	return b.String()
 }
 
+/*
+decodeR decode register string to code
+*/
 func decodeR(c string, length int) (*string, bool) {
 	c = strings.TrimSpace(c)
 	if strings.HasPrefix(c, "R") {
