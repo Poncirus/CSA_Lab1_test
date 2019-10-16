@@ -1,4 +1,4 @@
-# TESTCASE 1-2 (Unverified)
+# TESTCASE 1-2 
 
 This testcase is designed for MEM-EX forwarding
 

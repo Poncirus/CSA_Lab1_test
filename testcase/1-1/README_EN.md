@@ -1,4 +1,4 @@
-# TESTCASE 1-1 (Unverified)
+# TESTCASE 1-1 
 
 This testcase is designed for EX-EX forwarding
 

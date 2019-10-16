@@ -1,4 +1,4 @@
-# TESTCASE 1-3 (Unverified)
+# TESTCASE 1-3 
 
 This testcase is designed for MEM-MEM forwarding
 

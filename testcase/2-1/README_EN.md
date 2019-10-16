@@ -1,4 +1,4 @@
-# TESTCASE 2-1 (Unverified)
+# TESTCASE 2-1 
 
 #### Instruction
 - [x] ADDU
