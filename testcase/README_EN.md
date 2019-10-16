@@ -17,3 +17,7 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 ### GROUP 1 Grading scheme
 - [x] RAW hazards
 - [ ] BEQ
+
+### GROUP 2 Grading scheme
+- [ ] RAW hazards
+- [x] BEQ

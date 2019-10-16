@@ -17,3 +17,8 @@
 ### GROUP 1 采分点
 - [x] RAW hazards
 - [ ] BEQ
+
+### GROUP 2 采分点
+- [ ] RAW hazards
+- [x] BEQ
+  
