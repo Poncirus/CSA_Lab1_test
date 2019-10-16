@@ -69,7 +69,7 @@ func AssembleLine(instrction string) *string {
 		} else {
 			return nil
 		}
-	case "BEQ", "LW", "SW":
+	case "LW", "SW":
 		if n != 3 {
 			return nil
 		}
@@ -80,6 +80,26 @@ func AssembleLine(instrction string) *string {
 			return nil
 		}
 		if v, err := decodeR(paras[0], 5); err {
+			c += *v
+		} else {
+			return nil
+		}
+		if i, err := strconv.Atoi(strings.TrimSpace(paras[2])); err == nil {
+			c += iToA(i, 16)
+		} else {
+			return nil
+		}
+	case "BEQ":
+		if n != 3 {
+			return nil
+		}
+
+		if v, err := decodeR(paras[0], 5); err {
+			c += *v
+		} else {
+			return nil
+		}
+		if v, err := decodeR(paras[1], 5); err {
 			c += *v
 		} else {
 			return nil
