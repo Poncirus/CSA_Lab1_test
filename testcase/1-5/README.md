@@ -22,6 +22,6 @@ LW    R6, R0, 8
 ADDU  R7, R6, R5
 SW    R7, R0, 12
 LW    R8, R0, 4
-Sw    r8,r0,16
+SW    r8,r0,16
 HALT
 ```
