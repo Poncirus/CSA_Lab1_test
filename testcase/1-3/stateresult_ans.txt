@@ -63,7 +63,7 @@ WB.Wrt_reg_addr:	00000
 WB.wrt_enable:	204
 WB.nop:	1
 State after executing cycle:	2
-IF.PC:	12
+IF.PC:	8
 IF.nop:	1
 ID.Instr:	11111111111111111111111111111111
 ID.nop:	1
@@ -95,7 +95,7 @@ WB.Wrt_reg_addr:	00000
 WB.wrt_enable:	204
 WB.nop:	1
 State after executing cycle:	3
-IF.PC:	12
+IF.PC:	8
 IF.nop:	1
 ID.Instr:	11111111111111111111111111111111
 ID.nop:	1
@@ -127,7 +127,7 @@ WB.Wrt_reg_addr:	00001
 WB.wrt_enable:	1
 WB.nop:	0
 State after executing cycle:	4
-IF.PC:	12
+IF.PC:	8
 IF.nop:	1
 ID.Instr:	11111111111111111111111111111111
 ID.nop:	1
@@ -159,7 +159,7 @@ WB.Wrt_reg_addr:	00001
 WB.wrt_enable:	0
 WB.nop:	0
 State after executing cycle:	5
-IF.PC:	12
+IF.PC:	8
 IF.nop:	1
 ID.Instr:	11111111111111111111111111111111
 ID.nop:	1
