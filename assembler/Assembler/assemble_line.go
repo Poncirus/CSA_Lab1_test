@@ -24,6 +24,9 @@ func AssembleLine(instrction string) *string {
 
 	// get instruction
 	firstSpace := strings.Index(ins, " ")
+	if firstSpace == -1 {
+		return nil
+	}
 	i := ins[:firstSpace]
 
 	// split parameters
