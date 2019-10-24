@@ -31,6 +31,6 @@ addu r2,r3,r0
 addu r3,r1,r2
 sw r3,r10,0
 addu r10,r10,r11
-beq r10,r12,-6
+beq r12,r10,-6
 halt
 ```
