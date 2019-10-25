@@ -33,3 +33,7 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 ### GROUP 2 Grading scheme
 - [x] RAW hazards
 - [x] BEQ
+
+### GROUP 3
+
+**GROUP 3**的测试用例来自于NYU Classes

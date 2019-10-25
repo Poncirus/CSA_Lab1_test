@@ -34,3 +34,6 @@
 - [x] RAW hazards
 - [x] BEQ
   
+### GROUP 3
+
+testcases in **GROUP 3** are from NYU Classes  
