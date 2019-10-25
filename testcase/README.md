@@ -6,18 +6,14 @@
 
 ## 自动测试方法
 
+**自动测试仅比较了dmemresult和RFresult, 在测试通过的情况下程序仍可能存在问题**
+
 1. 安装git和vim: `sudo apt-get install git vim`
 2. clone项目: `git clone https://github.com/LiaoHanwen/CSA_Lab1_test.git`
 3. 进入testcase目录: `cd CSA_Lab1_test/testcase`
 4. 将MIPS_pipeline.cpp源文件到目录下
 5. 编译源文件: `make --always-make`
 6. 进行自动测试: `make test`
-
-## Automatic Testing
-
-1. Put your `MIPS_pipeline.cpp` file in this directory.
-2. Run `make --always-make` to build.
-3. Run `make test` to begin testing for all test cases.
 
 ## 手动测试方法
 
@@ -34,6 +30,6 @@
 - [ ] BEQ
 
 ### GROUP 2 采分点
-- [ ] RAW hazards
+- [x] RAW hazards
 - [x] BEQ
   

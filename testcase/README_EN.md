@@ -6,6 +6,8 @@ Testcases are listed from easy to hard
 
 ## Automatic Testing
 
+**Automatic Testing only compares dmemresult and RFresult, the program may have problems even if passing the test**
+
 1. install git and vim: `sudo apt-get install git vim`
 2. clone project: `git clone https://github.com/LiaoHanwen/CSA_Lab1_test.git`
 3. cd to testcase: `cd CSA_Lab1_test/testcase`
@@ -28,5 +30,5 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 - [ ] BEQ
 
 ### GROUP 2 Grading scheme
-- [ ] RAW hazards
+- [x] RAW hazards
 - [x] BEQ
