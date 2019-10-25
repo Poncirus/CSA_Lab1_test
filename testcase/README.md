@@ -11,7 +11,7 @@
 1. 安装git和vim: `sudo apt-get install git vim`
 2. clone项目: `git clone https://github.com/LiaoHanwen/CSA_Lab1_test.git`
 3. 进入testcase目录: `cd CSA_Lab1_test/testcase`
-4. 将MIPS_pipeline.cpp源文件到目录下
+4. 将MIPS_pipeline.cpp源文件拷贝到目录下
 5. 编译源文件: `make --always-make`
 6. 进行自动测试: `make test`
 
