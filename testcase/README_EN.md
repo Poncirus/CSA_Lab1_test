@@ -14,7 +14,7 @@ Testcases are listed from easy to hard
 4. Put your `MIPS_pipeline.cpp` file in this directory.
 5. Run `make --always-make` to build.
 6. Run `make test` to begin testing for all test cases.
-7. Optionally use `make test case=THE_TESTCASE_YOU_WANT_TO_TEST` to test a single case.
+7. Optionally use `make test case=<THE_TESTCASE_YOU_WANT_TO_TEST>` to test a single case.
 
 ## Manually Testing method
 
