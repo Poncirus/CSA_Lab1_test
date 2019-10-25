@@ -5,6 +5,6 @@ clean:
 	rm MIPS_pipeline
 
 test:
-	./test.sh
+	./test.sh $(case)
 
 .PHONY: all test clean

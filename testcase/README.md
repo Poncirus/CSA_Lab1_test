@@ -14,6 +14,7 @@
 4. 将MIPS_pipeline.cpp源文件拷贝到目录下
 5. 编译源文件: `make --always-make`
 6. 进行自动测试: `make test`
+7. 选择单个测试用例进行测试: `make test case=<THE_TESTCASE_YOU_WANT_TO_TEST>`
 
 ## 手动测试方法
 
