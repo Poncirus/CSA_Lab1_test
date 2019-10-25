@@ -4,7 +4,16 @@ Folder contains testcases for lab1
 
 Testcases are listed from easy to hard
 
-## Testing method
+## Automatic Testing
+
+1. install git and vim: `sudo apt-get install git vim`
+2. clone project: `git clone https://github.com/LiaoHanwen/CSA_Lab1_test.git`
+3. cd to testcase: `cd CSA_Lab1_test/testcase`
+4. Put your `MIPS_pipeline.cpp` file in this directory.
+5. Run `make --always-make` to build.
+6. Run `make test` to begin testing for all test cases.
+
+## Manually Testing method
 
 Copy the imem.txt and dmem.txt of a testcase to the target directory and run the program. After the program is completed, compare the generated dmemresult.txt, RFresult.txt and stateresult.txt with the file with the same name under the test case.
 

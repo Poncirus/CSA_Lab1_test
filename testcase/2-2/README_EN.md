@@ -1,6 +1,5 @@
-# 测试用例 2-2
+# TESTCASE 2-2
 
-斐波那契数列生成器
 Fibonacci sequence generator
 
 ```
@@ -10,18 +9,19 @@ Fibonacci sequence generator
 [2] = Stop address
 ```
 
-#### 包含的指令
+#### Instruction
 - [x] ADDU
 - [ ] SUBU
 - [x] LW
 - [x] SW
 - [x] BEQ
 
-#### 采分点
+
+#### Grading scheme
 - [x] RAW hazards
 - [x] BEQ
 
-#### 汇编指令
+#### Assembly
 ```
 lw r10,r0,0
 lw r11,r0,4
