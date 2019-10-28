@@ -36,4 +36,4 @@ Copy the imem.txt and dmem.txt of a testcase to the target directory and run the
 
 ### GROUP 3
 
-**GROUP 3**的测试用例来自于NYU Classes
+testcases in **GROUP 3** are from NYU Classes  

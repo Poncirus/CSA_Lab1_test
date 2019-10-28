@@ -36,4 +36,4 @@
   
 ### GROUP 3
 
-testcases in **GROUP 3** are from NYU Classes  
+**GROUP 3**的测试用例来自于NYU Classes
