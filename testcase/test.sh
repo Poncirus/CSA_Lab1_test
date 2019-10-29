@@ -15,7 +15,9 @@ fi
 for i in $testcase; do
     echo -e "=============================================================\n>>>>  $i"
     cd $i
-    rm dmemresult.txt RFresult.txt stateresult.txt
+    for file in dmemresult.txt RFresult.txt stateresult.txt; do
+	[ -e $file ] && rm $file
+    done
     ../MIPS_pipeline
     diff -wq dmemresult*
     DMEM_SAME=$?
